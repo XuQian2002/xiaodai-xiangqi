@@ -102,7 +102,9 @@ gradle assembleDebug          # 调试包
 gradle assembleRelease        # 发布包（未签名，需自行配置 signingConfigs）
 ```
 
-Windows 环境使用 `gradlew.bat`，命令参数相同。
+Windows 环境把 `gradle` 换成 `gradle.bat`，参数相同。
+
+> 为避免向仓库引入 `gradle-wrapper.jar`（二进制文件），本仓库未附带 wrapper 的可执行 jar。请使用本机已安装的 Gradle 8.9；若坚持用 `./gradlew`，先在本地执行一次 `gradle wrapper --gradle-version 8.9` 生成 wrapper，或用 Android Studio 打开工程让其自动补全。
 
 ### 直接安装
 
