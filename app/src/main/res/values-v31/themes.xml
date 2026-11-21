@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Android 12+ 系统启动屏：底色与应用背景一致，避免 Splash 页与首帧背景切换产生黑/白闪烁 -->
+    <style name="Theme.DaidaiXiangqi" parent="Theme.DaidaiXiangqi.Base">
+        <item name="android:windowSplashScreenBackground">@color/chess_bg</item>
+        <item name="android:windowSplashScreenBehavior">icon_preferred</item>
+    </style>
+
+</resources>

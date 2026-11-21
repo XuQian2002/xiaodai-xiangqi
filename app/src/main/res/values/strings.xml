@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">小呆象棋</string>
+
+    <string name="new_game">新游戏</string>
+    <string name="hint">提示</string>
+    <string name="flip">翻转</string>
+    <string name="flip_text_on">文字随座位翻转</string>
+    <string name="flip_text_off">文字固定正向</string>
+    <string name="flip_text_on_toast">已切换：文字随座位翻转</string>
+    <string name="flip_text_off_toast">已切换：文字固定正向</string>
+    <string name="undo">悔棋</string>
+    <string name="sound_mute">静音</string>
+    <string name="sound_unmute">取消静音</string>
+    <string name="sound_muted">已静音</string>
+    <string name="sound_unmuted_toast">已开启声音</string>
+    <string name="sound_global_off_hint">所有声音已关闭，请先打开声音总开关后重试</string>
+    <string name="speak_on">语音播报</string>
+    <string name="speak_off">关闭播报</string>
+    <string name="speak_on_toast">已开启播报</string>
+    <string name="speak_off_toast">已关闭播报</string>
+
+    <string name="red_side">红方</string>
+    <string name="black_side">黑方</string>
+    <string name="role_player">玩家</string>
+    <string name="role_ai">AI</string>
+    <string name="round_label">回合 %1$d</string>
+    <string name="history_empty">暂无棋谱</string>
+    <string name="history_all">全部 »</string>
+    <string name="history_title">本局棋谱</string>
+
+    <string name="mode_pvp">双人</string>
+    <string name="mode_pvai">人机 · %1$s</string>
+
+    <string name="side_to_move">%1$s走棋</string>
+    <string name="in_check">%1$s将军！</string>
+    <string name="suicide_check_speech">不可送将</string>
+    <string name="wins">%1$s获胜！</string>
+    <string name="ai_thinking">AI 思考中</string>
+    <string name="perpetual_check_loss">长将判负，%1$s获胜！</string>
+    <string name="perpetual_chase_loss">长捉判负，%1$s获胜！</string>
+    <string name="stalemate_win">困毙，无子可走，%1$s获胜！</string>
+    <string name="stalemate_win_short">困毙，%1$s获胜</string>
+    <string name="repetition_draw">三次重复局面，和棋！</string>
+    <string name="game_over">游戏结束</string>
+    <string name="play_again">再来一局</string>
+    <string name="close">关闭</string>
+
+    <string name="not_your_turn">不是你的回合</string>
+    <string name="mode_not_selected">请先选择对战模式</string>
+    <string name="illegal_move">这步棋不合法</string>
+    <string name="illegal_target_own">不能吃自己的棋子</string>
+    <string name="illegal_horse_shape">马走日字，不能这样走</string>
+    <string name="illegal_horse_leg">马腿被别，走不了这一步</string>
+    <string name="illegal_elephant_shape">象走田字，不能这样走</string>
+    <string name="illegal_elephant_eye">象眼被塞，走不了这一步</string>
+    <string name="illegal_elephant_river">象不能过河</string>
+    <string name="illegal_chariot_shape">车走直线，不能这样走</string>
+    <string name="illegal_chariot_blocked">车不能越子</string>
+    <string name="illegal_cannon_shape">炮走直线，不能这样走</string>
+    <string name="illegal_cannon_blocked">炮不吃子时不能越子</string>
+    <string name="illegal_cannon_no_screen">炮吃子必须隔一个棋子</string>
+    <string name="illegal_cannon_extra_screen">炮吃子只能隔一个棋子</string>
+    <string name="illegal_advisor_shape">士走斜线，不能这样走</string>
+    <string name="illegal_advisor_palace">士不能出九宫</string>
+    <string name="illegal_general_shape">将帅走直线一步</string>
+    <string name="illegal_general_palace">将帅不能出九宫</string>
+    <string name="illegal_soldier_shape">兵只能向前走一步</string>
+    <string name="illegal_soldier_backward">兵不能后退</string>
+    <string name="illegal_soldier_side">兵过河后才能横走</string>
+    <string name="check_must_reply">将军！须走应将着法</string>
+    <string name="check_protect_general_speech">保护将军</string>
+    <string name="hint_suggest">建议走 %1$s</string>
+    <string name="hint_unavailable">无法提供建议</string>
+    <string name="undo_none">没有可以悔的棋</string>
+    <string name="undo_done">已悔棋</string>
+
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="undo_confirm_title">确认悔棋</string>
+    <string name="undo_confirm_message">确定要悔棋吗？</string>
+    <string name="mode_select_title">选择游戏模式</string>
+    <string name="abandon_title">放弃这一局？</string>
+    <string name="abandon_message">当前棋局还没下完，开新局会结束它。</string>
+    <string name="abandon_confirm">开新局</string>
+    <string name="play_red_vs_ai">我执红先手 vs AI</string>
+    <string name="play_black_vs_ai">我执黑后手 vs AI</string>
+    <string name="two_players">双人对战</string>
+    <string name="difficulty_title">选择 AI 难度</string>
+    <string name="about">关于</string>
+    <string name="about_title">关于小呆象棋</string>
+    <string name="about_subtitle">本应用由小许同学独立编写完成</string>
+<string name="about_body">棋友：\n　　小呆象棋是一款纯本地运行的中国象棋练习工具，全部对局判断与 AI 计算均在手机端完成，无需联网，不上传对局数据，不含广告与推送。现有功能如下。\n　　一、对战模式\n　　人机对战：可自选执红先行或执黑后行，与本地 AI 对弈；内置初级、中级、高级、专业、大师五档难度，共用同一套棋力引擎，棋力差异体现为每步思考时长——初级约 1–2 秒，逐级增至大师约 4–4.5 秒；同一档位内，思考时长随盘面复杂度在区间内自适应：局面简明时偏快，纠缠、被将军或兑子时偏慢，且不超出该档范围。双人同屏：两位玩家在同一棋盘轮流落子，便于面对面切磋。\n　　二、对局辅助\n　　悔棋：人机对局回退一个回合，双人对局回退一步；走子提示：人机对局给出一步参考着法，提示前本地思考约 4.5–5.5 秒；棋盘翻转：随时切换红、黑双方视角；文字朝向：可切换双方文字各朝自己，或统一正向显示；棋钟计时：选中棋子后开始计时，落子后切换至对方；选中棋子即标示全部可行落点，便于查看着法。\n　　三、记谱与语音\n　　中文记谱：每步按传统汉字棋谱编号、红黑分色，整局棋谱可在弹窗中复盘。离线语音：由本地语音模型合成，全程不联网；落子、吃子、将军均有语音提示；顺势抽吃车、马、炮等大子时播报「将军抽车」「将军抽马」「将军抽炮」；终局播报胜负与落败一方；识别到重炮、马后炮、铁门栓、二鬼拍门等常见杀招时念出杀招名称；困毙局面单独提示；播报可在菜单中开关。\n　　四、规则判决\n　　按中国象棋规则判定将死与困毙；反复长将、反复追逐对方大子判负；同一局面重复出现三次按和棋处理。\n　　五、技术说明\n　　AI 依托内置皮卡鱼（Pikafish）象棋引擎判断着法；语音由本地中文模型合成，不调用系统朗读。\n　　本作为个人独立完成，如有问题或改进建议，欢迎通过下方联系方式反馈。</string>
+    <string name="about_signature">小许同学</string>
+    <string name="about_sign_date">2026年11月21日</string>
+    <string name="about_acknowledge">我已了解</string>
+    <string name="about_acknowledge_countdown">我已了解（%1$d 秒）</string>
+    <string name="contact_section">联系开发者：</string>
+    <string name="contact_qq_label">QQ：3121013269（Every day）</string>
+    <string name="contact_qq_email_label">QQ 邮箱：3121013269@qq.com</string>
+    <string name="contact_gmail_label">谷歌邮箱：xuqian701@gmail.com</string>
+    <string name="contact_hellotalk_label">HelloTalk：@XuQian20040430</string>
+    <string name="qr_label_qq">QQ</string>
+    <string name="qr_label_hellotalk">HelloTalk</string>
+    <string name="copy">复制</string>
+    <string name="copied_toast">已复制</string>
+    <string name="save_qq_qr">保存 QQ 码</string>
+    <string name="save_hellotalk_qr">保存 HelloTalk 码</string>
+    <string name="saved_to_album">已保存到相册</string>
+    <string name="save_qr_failed">保存失败，可截图保存</string>
+<string name="about_disclaimer">免责声明：\n　　1. 本应用「小呆象棋」系个人独立开发的免费单机象棋练习工具，完全免费，不含广告、内购及任何付费项目，不设账号，亦不涉及任何现金、财物或筹码形式的对局与输赢。本应用不作任何商业用途，仅供个人下棋练习与日常娱乐使用，请勿用于赌博等违法违规活动。\n　　2. 应用内五档 AI 由本地皮卡鱼（Pikafish）象棋引擎计算给出，所推荐着法与对局胜负仅供日常练习参考，不代表对真实棋力水平或比赛成绩的任何承诺；棋规判定以中国象棋正式规则为准。皮卡鱼引擎及其神经网络模型的著作权归其原作者及权利人所有。\n　　3. 应用按现有手机与系统环境提供，开发者已尽力调试，但不保证在所有机型、系统版本上均完全无误或持续运行；因设备兼容性、操作不当或意外退出导致的对局中断、棋谱或设置丢失等，在法律允许范围内，开发者不承担由此产生的直接或间接损失。\n　　4. 对局记录与设置等数据均保存于本机，不上传网络；联系邮箱、QQ 与二维码仅用于问题反馈与交流，通过第三方软件沟通所产生的内容与后果，由用户自行承担。\n　　本应用程序代码、界面布局与配色、图标与配图、启动画面、中文记谱与播报文案、棋谱展示与交互设计、难度与规则说明文案等自研内容，著作权归小许同学所有；内置皮卡鱼象棋引擎、语音模型等第三方素材，分别归其各自权利人所有。本应用不用于商业用途，未经许可，自研部分不得擅自复制、改编或商用。继续安装并使用本应用，即视为您已阅读、理解并同意上述声明。</string>
+
+    <string-array name="difficulty_notes">
+        <item>每步约 1–2 秒</item>
+        <item>每步约 2–2.5 秒</item>
+        <item>每步约 3–3.5 秒</item>
+        <item>每步约 3.5–4 秒</item>
+        <item>每步约 4–4.5 秒</item>
+    </string-array>
+    <string-array name="difficulty_short">
+        <item>初级</item>
+        <item>中级</item>
+        <item>高级</item>
+        <item>专业</item>
+        <item>大师</item>
+    </string-array>
+
+    <string-array name="board_bottom_files">
+        <item>玖</item><item>捌</item><item>柒</item><item>陸</item><item>伍</item><item>肆</item><item>叁</item><item>貳</item><item>壹</item>
+    </string-array>
+    <string name="jade_game_title">小呆象棋</string>
+</resources>

@@ -1,0 +1,24 @@
+# Gradle / build outputs
+.gradle/
+build/
+
+# Local machine configuration
+local.properties
+
+# Logs / OS files
+*.log
+.DS_Store
+
+# IDE files
+*.iml
+.idea/
+
+# Release outputs
+*.apk
+*.aab
+output-metadata.json
+
+# Keystore
+*.jks
+*.keystore
+keystore.properties
