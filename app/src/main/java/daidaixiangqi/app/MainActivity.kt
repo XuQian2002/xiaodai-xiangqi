@@ -967,7 +967,7 @@ class MainActivity : AppCompatActivity() {
         updateSpeakIcon()
     }
 
-    /** 全局总静音下，分项声音（播报 / 音乐）被拦截时的统一提示。 */
+    /** 全局总静音下，分项声音（语音播报）被拦截时的统一提示。 */
     private fun showGlobalMutedBlockedDialog() {
         AlertDialog.Builder(this, R.style.ChessDialogTheme)
             .setMessage(R.string.sound_global_off_hint)

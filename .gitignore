@@ -1,24 +1,62 @@
 # Gradle / build outputs
 .gradle/
 build/
+captures/
+.externalNativeBuild/
+.cxx/
 
 # Local machine configuration
 local.properties
+sdk.dir
 
 # Logs / OS files
 *.log
 .DS_Store
+Thumbs.db
 
 # IDE files
 *.iml
 .idea/
+*.hprof
 
 # Release outputs
 *.apk
 *.aab
+*.ap_
 output-metadata.json
 
-# Keystore
+# Keystore / signing
 *.jks
 *.keystore
+*.p12
 keystore.properties
+signing.properties
+
+# 二进制产物与资源文件（本仓库保持纯源码，禁止提交）
+*.so
+*.a
+*.dylib
+*.dll
+*.onnx
+*.tflite
+*.pb
+*.bin
+*.wav
+*.mp3
+*.m4a
+*.ogg
+*.flac
+*.ttf
+*.otf
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.ico
+*.zip
+*.7z
+*.tar
+*.gz
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
